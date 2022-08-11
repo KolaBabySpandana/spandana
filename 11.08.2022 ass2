@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n,i=1,count;
+scanf("%d",&n);
+while(i<n){
+    n=n-i;
+    count++;
+    i++;
+}
+printf("%d",count);
+return 0;
+}
