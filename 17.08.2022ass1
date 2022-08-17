@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int k,i,arr[100],len;
+    scanf("%d",&k);
+    len=sizeof(arr)/sizeof(int);
+   // printf("%d",len);
+    for(i=0;i<k;i++){
+        scanf("%d",&arr[i]);
+        if()
+        
+    }
+
+    return 0;
+}
