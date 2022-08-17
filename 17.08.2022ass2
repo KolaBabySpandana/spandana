@@ -1,0 +1,12 @@
+// fibonacci series below 100
+#include <stdio.h>
+int main() {
+    int i,t1=0,t2=1;
+    for(i=0;i<100;){
+        printf("%d\t",i);
+        t1=t2;
+        t2=i;
+        i=t1+t2;
+    }
+    return 0;
+}
