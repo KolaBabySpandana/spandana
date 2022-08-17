@@ -1,5 +1,5 @@
+// to print the missing number in the array
 #include <stdio.h>
-
 int main() {
     int k,i,arr[100],len;
     scanf("%d",&k);
