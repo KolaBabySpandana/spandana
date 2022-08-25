@@ -1,20 +1,21 @@
 #include <stdio.h>
 int main() {
     int n,i,j;
+    printf("enter n value:");
     scanf("%d",&n);
-    for(i=1;i<=n;i++){
-        for(j=1;j<=i;j++){
-            printf("%d",n);
+    for(i=0;i<=n;i++){
+        for(j=0;j<=i;j++){
+            printf("%d",n-j);
         }
         printf("\n");
     }
     return 0;
 }
-output
+enter n value:6
 6
-6
-66
-666
-6666
-66666
-666666
+65
+654
+6543
+65432
+654321
+6543210
