@@ -3,21 +3,22 @@
 #include <string.h>
 int main() {
     char str[20];
-    int len,i=0,j;
+    int len,i=0,j,count=0;
     gets(str);
     len=strlen(str);
     j=len-1;
     while(i<len/2){
-        char temp;
-        temp=str[i];
-        str[i]=str[j];
-        str[j]=temp;
+       if(str[i]==str[j])
+       count++;
         i++;
         j--;
     }
-    if(str[i]==str[j])
+    if(count==len/2)
     printf("Palindrome");
     else
     printf("Not Palindrome");
     return 0;
 }
+output
+madam
+Palindrome
