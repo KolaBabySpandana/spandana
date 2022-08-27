@@ -1,0 +1,32 @@
+//program for subset
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char s[20];
+    int len=0,i,j,k;
+    printf("enter string :");
+    gets(s);
+    len=strlen(s);
+    for(i=1;i<=len;i++){
+    	for(j=0;j<=len-i;j++){
+    		int x=j+i;
+    		for(k=j;k<x;k++){
+    			printf("%c",s[k]);
+			}
+			printf("\n");
+		}
+	}
+    return 0;
+}
+output
+enter string :abcd
+a
+b
+c
+d
+ab
+bc
+cd
+abc
+bcd
+abcd
