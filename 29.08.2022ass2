@@ -1,4 +1,4 @@
-//digit frequency 
+//digit frequency program
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
