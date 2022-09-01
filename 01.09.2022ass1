@@ -1,0 +1,18 @@
+ //Write a C Program to check a number is even or odd using functions with return value     
+#include <stdio.h>
+int main() {
+    int x,ans;
+    printf("enter a number");
+    scanf("%d",&x);
+    ans=cal(x);
+    if(ans==0)
+    printf("Even");
+    else
+    printf("Odd");
+}
+int cal(int x){
+	if(x%2==0)
+	return 0;
+	else
+	return 1;
+}
